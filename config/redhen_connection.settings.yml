@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: 3KbCwZTVVgBN3o9mPYiOx8bWW6Mz36tbriyNcmp9zJ4
+dependencies:
+  enforced:
+    module:
+      - redhen_connection
+auto_disable_connections: true
