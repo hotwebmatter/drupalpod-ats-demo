@@ -3,6 +3,7 @@ image:
 
 tasks:
   - init: |
+      .gitpod/scripts/composer-setup.sh
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
       ddev drupal-install
