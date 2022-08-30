@@ -1,0 +1,8 @@
+uuid: 4884f40a-a305-4655-8410-12cf06f35589
+langcode: en
+status: true
+dependencies: {  }
+name: 'ATS Employee Type'
+vid: ats_employee_type
+description: 'Taxonomy terms for ATS Employee Type'
+weight: 0

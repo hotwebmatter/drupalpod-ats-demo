@@ -1,0 +1,29 @@
+uuid: 64e3b8eb-a82f-4c06-9377-81d936434fcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.redhen_contact.field_ats_candidate_status
+    - redhen_contact.redhen_contact_type.candidate
+    - taxonomy.vocabulary.ats_candidate_status
+id: redhen_contact.candidate.field_ats_candidate_status
+field_name: field_ats_candidate_status
+entity_type: redhen_contact
+bundle: candidate
+label: 'ATS Candidate Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ats_candidate_status: ats_candidate_status
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ats_candidate_status
+field_type: entity_reference

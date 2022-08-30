@@ -1,0 +1,20 @@
+uuid: 52f004e9-4c42-4109-8338-b7fb0de14d09
+langcode: en
+status: true
+dependencies:
+  module:
+    - redhen_contact
+    - taxonomy
+id: redhen_contact.field_ats_candidate_status
+field_name: field_ats_candidate_status
+entity_type: redhen_contact
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

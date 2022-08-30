@@ -1,0 +1,8 @@
+uuid: 71db4efa-3111-485c-861c-91d73411b872
+langcode: en
+status: true
+dependencies: {  }
+name: 'ATS Candidate Source'
+vid: ats_candidate_source
+description: 'Taxonomy terms for ATS Candidate Source'
+weight: 0

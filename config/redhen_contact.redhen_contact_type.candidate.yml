@@ -1,0 +1,6 @@
+uuid: c6d8be2e-77af-41c7-adc2-eaa705885879
+langcode: en
+status: true
+dependencies: {  }
+id: candidate
+label: Candidate
