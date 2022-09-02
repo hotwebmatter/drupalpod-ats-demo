@@ -7,10 +7,7 @@ dependencies:
     - field.field.redhen_contact.candidate.field_ats_candidate_ownership
     - field.field.redhen_contact.candidate.field_ats_candidate_source
     - field.field.redhen_contact.candidate.field_ats_candidate_status
-    - field.field.redhen_contact.candidate.field_status
     - redhen_contact.redhen_contact_type.candidate
-  module:
-    - options
 id: redhen_contact.candidate.default
 targetEntityType: redhen_contact
 bundle: candidate
@@ -54,13 +51,6 @@ content:
       link: true
     third_party_settings: {  }
     weight: 5
-    region: content
-  field_status:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
     region: content
   uid:
     type: entity_reference_label

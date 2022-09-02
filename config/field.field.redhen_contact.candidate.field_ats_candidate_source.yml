@@ -10,7 +10,7 @@ id: redhen_contact.candidate.field_ats_candidate_source
 field_name: field_ats_candidate_source
 entity_type: redhen_contact
 bundle: candidate
-label: 'ATS Candidate Source'
+label: Source
 description: ''
 required: false
 translatable: false

@@ -7,7 +7,6 @@ dependencies:
     - field.field.redhen_contact.candidate.field_ats_candidate_ownership
     - field.field.redhen_contact.candidate.field_ats_candidate_source
     - field.field.redhen_contact.candidate.field_ats_candidate_status
-    - field.field.redhen_contact.candidate.field_status
     - redhen_contact.redhen_contact_type.candidate
 id: redhen_contact.candidate.default
 targetEntityType: redhen_contact
@@ -47,12 +46,6 @@ content:
   field_ats_candidate_status:
     type: options_select
     weight: 21
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_status:
-    type: options_select
-    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }

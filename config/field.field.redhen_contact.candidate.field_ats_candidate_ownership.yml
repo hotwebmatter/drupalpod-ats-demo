@@ -9,7 +9,7 @@ id: redhen_contact.candidate.field_ats_candidate_ownership
 field_name: field_ats_candidate_ownership
 entity_type: redhen_contact
 bundle: candidate
-label: 'ATS Candidate Ownership'
+label: Ownership
 description: ''
 required: false
 translatable: false

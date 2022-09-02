@@ -10,7 +10,7 @@ id: redhen_contact.candidate.field_ats_candidate_emp_type
 field_name: field_ats_candidate_emp_type
 entity_type: redhen_contact
 bundle: candidate
-label: 'ATS Candidate Employee Type'
+label: 'Employee Type'
 description: ''
 required: false
 translatable: false
