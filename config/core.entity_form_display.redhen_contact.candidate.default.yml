@@ -15,22 +15,18 @@ bundle: candidate
 mode: default
 content:
   email:
-    type: string_textfield
+    type: email_default
     weight: -4
     region: content
     settings:
-      size: 60
       placeholder: ''
+      size: 60
     third_party_settings: {  }
   field_ats_candidate_emp_type:
-    type: entity_reference_autocomplete
+    type: options_select
     weight: 22
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   field_ats_candidate_ownership:
     type: entity_reference_autocomplete
@@ -43,24 +39,16 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_ats_candidate_source:
-    type: entity_reference_autocomplete
+    type: options_select
     weight: 23
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   field_ats_candidate_status:
-    type: entity_reference_autocomplete
+    type: options_select
     weight: 21
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   field_status:
     type: options_select
